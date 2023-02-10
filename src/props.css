@@ -1,0 +1,64 @@
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .logo{
+    width: 120px;
+    height: 45.35px;
+  }
+
+  .background{
+    background: url(./icons/BGmenu.png) no-repeat;
+  }
+
+  .card--section{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 18rem 2rem;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  a:hover{
+    font-weight: bold;
+  }
+
+  .props--container{
+    max-width: 7.5rem;
+    max-height: 7.5rem;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .props--container :hover{
+    opacity: 0.3;
+    box-shadow: 4px 5.6px 9.4564px rgba(43, 234, 22, 0.1);
+  }
+
+   .icon{
+    width: 5.5rem;
+    height: 5.5rem;
+   }
+  
+   .card--text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    padding-bottom: 1rem;
+    text-align: center;
+
+   }
+  
+   
