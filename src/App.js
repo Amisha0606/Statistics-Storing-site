@@ -14,8 +14,8 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Form />} />
-        <Route path="/main" element={<PropsMain />} />
+        {/* <Route path="/" element={<Form />} /> */}
+        <Route path="/" element={<PropsMain />} />
         <Route path="/assets" element={<Assets />} />
         <Route path="/kpis" element={<KPIs />} />
         <Route path="/event" element={<Event />} />

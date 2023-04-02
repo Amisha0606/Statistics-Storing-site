@@ -118,7 +118,7 @@ function App() {
         </div>
       </div>
 
-      <div style={{ position: "fixed", bottom: 20, right: 20 }}>
+      {/* <div style={{ position: "fixed", bottom: 20, right: 20 }}>
         <Link to="/">
           <Button variant="contained">
             Back to form
@@ -127,7 +127,7 @@ function App() {
             />
           </Button>
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 }
