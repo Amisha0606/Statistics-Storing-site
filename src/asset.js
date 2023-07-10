@@ -24,7 +24,7 @@ import { Link } from "react-router-dom";
 
 //MAPBOX ACCESS TOKEN
 mapboxgl.accessToken =
-  "pk.eyJ1IjoiYW1pc2hhMDYwNiIsImEiOiJjbDlxeGZweTcxNmY0M3BzNWJkY2dieDF6In0.eMwyFzcazMzjbNERZUg_WQ";
+  "pk.eyJ1IjoiYW1pc2hhMDYwNiIsImEiOiJjbGpzd2NxZ3IwMGxlM3JudmRleGVva2w2In0.EhsvBIppXahzvTnDZeHIIQ";
 
 //CHARTS START
 const StackedPercentageColumn1 = {
